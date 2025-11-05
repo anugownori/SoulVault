@@ -1,0 +1,24 @@
+name: Feature request
+description: Suggest an idea or feature for SoulVault MVP or beyond
+title: '[Feature] '
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: Feature summary
+      description: Briefly describe the new feature or idea.
+      placeholder: Clear explanation of your feature request.
+  - type: textarea
+    attributes:
+      label: Why is this needed?
+      description: What use case or user pain does this address?
+  - type: textarea
+    attributes:
+      label: Implementation sketch
+      description: How could this be technically implemented in the stack? (optional)
+  - type: checkboxes
+    attributes:
+      label: MVP priority?
+      options:
+        - label: This is essential for MVP.
+        - label: Nice to have, not critical.
